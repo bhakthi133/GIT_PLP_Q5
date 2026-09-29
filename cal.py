@@ -10,3 +10,5 @@ def divide(n, m):
     return n / m
 def power(n, m):
     return n ** m
+def square(n):
+    return n ** 2
