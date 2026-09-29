@@ -1,4 +1,4 @@
-from cal import add,sub,multiply,divide
+from cal import add,sub,multiply,divide,power
 
 def test_add():
     assert add(8, 9) == 17
@@ -11,3 +11,5 @@ def test_mul():
 def test_divide():
     assert divide(9, 0) == "Invalid"
     assert divide(8, 4) == 2
+def test_power():
+    assert power(9, 0) == 1

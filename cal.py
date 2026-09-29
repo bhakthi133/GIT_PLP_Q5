@@ -8,3 +8,5 @@ def divide(n, m):
     if m == 0:
         return "Invalid"
     return n / m
+def power(n, m):
+    return n ** m
