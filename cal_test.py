@@ -1,4 +1,4 @@
-from cal import add,sub
+from cal import add,sub,multiply
 
 def test_add():
     assert add(8, 9) == 17
@@ -6,3 +6,5 @@ def test_add():
 def test_sub():
     assert sub(9, 8) == 1
     assert sub(2, -9) == 11
+def test_mul():
+    assert multiply(0, 9) == 0
